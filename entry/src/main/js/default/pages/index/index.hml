@@ -1,0 +1,16 @@
+<div class="container">
+    <image src="common/images/bg.jpg" class="background"></image>
+    <text class="title">
+        {{ $t('strings.app') }}
+    </text>
+    <image src="common/images/img.png" class="image"></image>
+    <div class="bottomContainer">
+        <button
+                id="start_game_btn"
+                class="button"
+                type="capsule"
+                value="Start Game"
+                on:click="onStartGameClick">
+        </button>
+    </div>
+</div>

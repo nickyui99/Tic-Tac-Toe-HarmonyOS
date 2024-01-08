@@ -1,0 +1,30 @@
+<div class="container">
+    <text class="title">
+        {{ $t('strings.app') }}
+    </text>
+    <text class="title">Player: {{ current }}</text>
+    <grid-container
+            id="mygrid"
+            gutter="0"
+            class="tic-tac-toe"
+            for="{{ (row, rowData) in board }}">
+        <grid-row class="row">
+            <grid-col span="0" class="tile" on:click="onTileClicked(row, 0)">
+                <text id="txt_{{row}}_0" class="tileButton {{ border[row][0] }}">
+                    {{ board[row][0] }}
+                </text>
+            </grid-col>
+            <grid-col span="0" class="tile" on:click="onTileClicked(row, 1)">
+                <text id="txt_{{row}}_0" class="tileButton {{ border[row][1] }}">
+                    {{ board[row][1] }}
+                </text>
+            </grid-col>
+            <grid-col span="0" class="tile" on:click="onTileClicked(row, 2)">
+                <text id="txt_{{row}}_0" class="tileButton {{ border[row][2] }}">
+                    {{ board[row][2] }}
+                </text>
+            </grid-col>
+        </grid-row>
+
+    </grid-container>
+</div>

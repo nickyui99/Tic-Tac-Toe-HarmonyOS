@@ -1,0 +1,44 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "entry_MainAbility"
+    },
+    {
+      "name": "mainability_description",
+      "value": "JS_Empty Ability"
+    },
+    {
+      "name": "tictactoeability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "tictactoeability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_TicTacToeAbility",
+      "value": "entry_TicTacToeAbility"
+    },
+    {
+      "name": "tictacktoeability_description",
+      "value": "JS_Empty Ability"
+    },
+    {
+      "name": "entry_TicTackToeAbility",
+      "value": "entry_TicTackToeAbility"
+    },
+    {
+      "name": "pageability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "pageability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_PageAbility",
+      "value": "entry_PageAbility"
+    }
+  ]
+}
